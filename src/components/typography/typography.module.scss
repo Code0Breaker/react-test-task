@@ -1,0 +1,25 @@
+.title {
+    color: $color-light-gray;
+    font-weight: 600;
+    font-size: 20px;
+    width: 209px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.simple {
+    color: $color-light-gray;
+    font-weight: 500;
+    font-size: 14px;
+    width: 209px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.caption {
+    color: $color-gray;
+    font-weight: 500;
+    font-size: 12px;
+}

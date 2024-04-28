@@ -1,0 +1,26 @@
+.sidebar {
+    width: 330px;
+    height: calc(100vh - 150px);
+    padding: 24px;
+    border-radius: 16px;
+    background-color: $color-black;
+
+    .divider {
+        margin: 20px 0;
+        border-color: $color-dark-gray;
+        width: 285px;
+    }
+
+    .title {
+        width: 60px;
+        display: inline-block;
+        margin-top: 15px;
+        text-transform: capitalize;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+         
+    }
+}

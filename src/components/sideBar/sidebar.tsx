@@ -10,7 +10,7 @@ export const Sidebar: FC<ISidebarProps> = ({ count, ageGroups, genderGroups }) =
         <Typography value='Age Groups' variant='title' />
         <div className={styles.info}>
             {Object.entries(ageGroups).map(ageGroup => {
-                return <div>
+                return <div key={ageGroup[0]}>
                     <span className={styles.title}>
                         <Typography value={ageGroup[0]} variant='caption' />
                     </span>
@@ -22,7 +22,7 @@ export const Sidebar: FC<ISidebarProps> = ({ count, ageGroups, genderGroups }) =
         <Typography value='Gender Groups' variant='title' />
         <div className={styles.info}>
             {Object.entries(genderGroups).map(genderGroup => {
-                return <div>
+                return <div key={genderGroup[0]}>
                     <span className={styles.title}>
                         <Typography value={genderGroup[0]} variant='caption' />
                     </span>
